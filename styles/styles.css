@@ -75,6 +75,29 @@ header #home .img-home img {
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  header {
+    padding: 4rem 1rem 0 1rem;
+  }
+  header nav ul {
+    padding: 0;
+  }
+  header #home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  header #home .textos-home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  header #home .textos-home h1 {
+    text-align: center;
+    font-size: 39px;
+  }
+}
 #nosso-espaco {
   margin: 0 auto;
   width: 80%;
@@ -108,6 +131,28 @@ header #home .img-home img {
   flex-direction: row-reverse;
 }
 
+@media (max-width: 425px) {
+  #nosso-espaco .detalhes .imgs-espaco img, #nosso-espaco .detalhes .espaco-textos img {
+    width: 100%;
+    padding-top: 3em;
+  }
+  #nosso-espaco .detalhes .imgs-espaco .espaco-textos, #nosso-espaco .detalhes .espaco-textos .espaco-textos {
+    font-size: 1rem;
+    width: 95%;
+  }
+  #nosso-espaco .detalhes .imgs-espaco .espaco-textos .separador, #nosso-espaco .detalhes .espaco-textos .espaco-textos .separador {
+    width: 95%;
+  }
+}
+@media (max-width: 768px) {
+  #nosso-espaco .detalhes {
+    display: grid;
+    justify-items: center;
+  }
+  #nosso-espaco .detalhes .imgs-espaco img, #nosso-espaco .detalhes .espaco-textos img {
+    margin-inline-start: 5px;
+  }
+}
 #servico {
   background: linear-gradient(180deg, #E8F5C8 0%, #FFFFFF 96.87%);
   padding: 5rem 0;
@@ -136,6 +181,16 @@ header #home .img-home img {
   color: #0C0421;
 }
 
+@media (max-width: 425px) {
+  #servico {
+    margin: 5rem 0;
+  }
+}
+@media (max-width: 768px) {
+  #servico .cards {
+    display: grid;
+  }
+}
 #desconto {
   display: flex;
   align-items: center;
@@ -179,6 +234,38 @@ header #home .img-home img {
   border: none;
 }
 
+@media (max-width: 425px) {
+  #desconto {
+    display: block;
+  }
+  #desconto .desconto-form {
+    width: 100%;
+    margin: auto;
+  }
+  #desconto img {
+    transform: rotate(90deg);
+  }
+  #desconto .input-btn input {
+    width: 45%;
+  }
+  #desconto .input-btn button {
+    width: 45%;
+  }
+}
+@media (max-width: 768px) {
+  #desconto {
+    margin-bottom: 3em;
+  }
+  #desconto .desconto-form {
+    width: 74%;
+  }
+  #desconto img {
+    width: 100px;
+  }
+  #desconto .input-btn {
+    width: 100%;
+  }
+}
 #contatos {
   margin: 0 auto;
   width: 80%;
@@ -249,6 +336,24 @@ header #home .img-home img {
   background: #4e75ff;
 }
 
+@media (max-width: 425px) {
+  #contatos .contatos-imgs img:nth-child(n+2) {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  #contatos {
+    display: grid;
+  }
+  #contatos .contatos-imgs {
+    max-width: none;
+    margin-top: 3em;
+    gap: 1rem;
+  }
+  #contatos .contatos-form {
+    max-width: none;
+  }
+}
 footer {
   background: #E8F5C8;
   padding: 2rem;

@@ -42,3 +42,39 @@
     }
 }
 
+@media (max-width: 425px) {
+    #desconto {
+        display: block;
+        .desconto-form {
+            width: 100%;
+            margin: auto;
+        }
+        img {
+            transform: rotate(90deg);
+        }
+        .input-btn {
+            input {
+                width: 45%;
+            }
+            button {
+                width: 45%;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #desconto {
+        margin-bottom: 3em;
+        .desconto-form {
+            width: 74%;
+        }
+        img {
+            width: 100px;
+        }
+
+        .input-btn {
+            width: 100%;
+        }
+    }
+}

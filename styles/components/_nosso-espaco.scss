@@ -37,3 +37,38 @@
         }
     }
 }
+
+@media (max-width: 425px) {
+    #nosso-espaco {
+        .detalhes {
+            .imgs-espaco {
+                img {
+                    width: 100%;
+                    padding-top: 3em;
+                }
+                .espaco-textos {
+                    font-size: 1rem;
+                    width: 95%;
+                    .separador {
+                        width: 95%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #nosso-espaco {
+        .detalhes {
+            display: grid;
+            justify-items: center;
+
+            .imgs-espaco {
+                img {
+                    margin-inline-start: 5px;
+                }
+            }
+        }
+    }
+}

@@ -80,3 +80,30 @@
         }
     }
 }
+
+@media (max-width: 425px) {
+    #contatos {
+        .contatos-imgs {
+            img {
+                &:nth-child(n + 2) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #contatos {
+        display: grid;
+        .contatos-imgs {
+            max-width: none;
+            margin-top: 3em;
+            gap: 1rem;
+        }
+
+        .contatos-form {
+            max-width: none;
+        }
+    }
+}
