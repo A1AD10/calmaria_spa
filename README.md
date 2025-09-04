@@ -19,7 +19,7 @@ Landing page fictícia de um spa, desenvolvida com foco em design limpo, boa usa
 ## 🛠️ Tecnologias utilizadas
 
 - HTML5
-- Scss
+- SCSS
 - JavaScript
 - [Vite](https://vitejs.dev/)
 - [Sass](https://sass-lang.com/) 
