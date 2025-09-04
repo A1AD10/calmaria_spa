@@ -1,6 +1,6 @@
 # 💆 Calmaria Spa
 
-![Preview do projeto](./screenshot.png)
+![Preview do projeto](./calmaria.png)
 
 Landing page fictícia de um spa, desenvolvida com foco em design limpo, boa usabilidade e responsividade. Criada para praticar a construção de interfaces modernas e atrativas.
 
